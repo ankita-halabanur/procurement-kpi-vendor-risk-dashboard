@@ -58,7 +58,14 @@ Techniques used: `GROUP BY`, `CASE WHEN`, window functions (`SUM() OVER()`), `DA
 
 ## Dashboard Preview
 
-*(Add a screenshot of your Power BI dashboard here)*
+### Main KPI Dashboard
+![Dashboard Preview](dashboard_preview.png)
+
+### Supplier Risk Overview — Defect & Compliance Rate
+![Supplier Risk](procurement_tableau_dashboard.png)
+
+### Drill-Through: Supplier Detail View
+![Supplier Detail](supplier_detail.png)
 
 ---
 
