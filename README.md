@@ -84,4 +84,3 @@ Built separately in Tableau to visualise supplier risk positioning — plotting 
 ---
 
 *Part of my Data Analyst portfolio — [LinkedIn](https://linkedin.com/in/ankita-halabanur) · [GitHub](https://github.com/ankita-halabanur)*
-
