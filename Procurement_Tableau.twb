@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0410.0924                               -->
+<workbook original-version='18.1' source-build='2026.1.1 (20261.26.0410.0924)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <HideSortControls />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Vendor_Scorecard (Procurement_Analysis)' inline='true' name='federated.1xnyp6e062o3u017yuiry164tc0u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Procurement_Analysis' name='excel-direct.1ll2q3d0dg18wk1e0my9w118mg4p'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/RAHUL/Documents/Procurement_Project/Procurement_Analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ll2q3d0dg18wk1e0my9w118mg4p' name='Vendor_Scorecard' table='[Vendor_Scorecard$]' type='table'>
+          <columns gridOrigin='A1:F6:no:A1:F6:0' header='yes' outcome='6'>
+            <column datatype='string' name='Supplier' ordinal='0' />
+            <column datatype='real' name='Total_Spend' ordinal='1' />
+            <column datatype='real' name='OnTime_Rate' ordinal='2' />
+            <column datatype='real' name='Cost_Savings' ordinal='3' />
+            <column datatype='real' name='Defect_Rate' ordinal='4' />
+            <column datatype='real' name='Compliance_Rate' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F6:no:A1:F6:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>Supplier</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Spend</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Spend]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>Total_Spend</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OnTime_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OnTime_Rate]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>OnTime_Rate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost_Savings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost_Savings]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>Cost_Savings</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Defect_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Defect_Rate]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>Defect_Rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Compliance_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Compliance_Rate]</local-name>
+            <parent-name>[Vendor_Scorecard]</parent-name>
+            <remote-alias>Compliance_Rate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Compliance Rate' datatype='real' name='[Compliance_Rate]' role='measure' type='quantitative' />
+      <column caption='Cost Savings' datatype='real' name='[Cost_Savings]' role='measure' type='quantitative' />
+      <column caption='Defect Rate' datatype='real' name='[Defect_Rate]' role='measure' type='quantitative' />
+      <column caption='OnTime Rate' datatype='real' name='[OnTime_Rate]' role='measure' type='quantitative' />
+      <column caption='Total Spend' datatype='real' name='[Total_Spend]' role='measure' type='quantitative' />
+      <column caption='Vendor_Scorecard' datatype='table' name='[__tableau_internal_object_id__].[Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Vendor_Scorecard' id='Vendor!Scorecard_AF4377ABA51340A9B0515D6E963C7B51'>
+            <properties context=''>
+              <relation connection='excel-direct.1ll2q3d0dg18wk1e0my9w118mg4p' name='Vendor_Scorecard' table='[Vendor_Scorecard$]' type='table'>
+                <columns gridOrigin='A1:F6:no:A1:F6:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Supplier' ordinal='0' />
+                  <column datatype='real' name='Total_Spend' ordinal='1' />
+                  <column datatype='real' name='OnTime_Rate' ordinal='2' />
+                  <column datatype='real' name='Cost_Savings' ordinal='3' />
+                  <column datatype='real' name='Defect_Rate' ordinal='4' />
+                  <column datatype='real' name='Compliance_Rate' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Supplier Risk Overview — Defect &amp; Compliance Rate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Vendor_Scorecard (Procurement_Analysis)' name='federated.1xnyp6e062o3u017yuiry164tc0u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xnyp6e062o3u017yuiry164tc0u'>
+            <column caption='Compliance Rate' datatype='real' name='[Compliance_Rate]' role='measure' type='quantitative' />
+            <column caption='Defect Rate' datatype='real' name='[Defect_Rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Supplier]' role='dimension' type='nominal' />
+            <column-instance column='[Supplier]' derivation='None' name='[none:Supplier:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Compliance_Rate]' derivation='Sum' name='[sum:Compliance_Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Defect_Rate]' derivation='Sum' name='[sum:Defect_Rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1xnyp6e062o3u017yuiry164tc0u].[none:Supplier:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Defect_Rate:qk]' shelf='columns' />
+          </shelf-sorts>
+          <hide-sort-controls />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Compliance_Rate:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Defect_Rate:qk]</rows>
+        <cols>[federated.1xnyp6e062o3u017yuiry164tc0u].[none:Supplier:nk]</cols>
+      </table>
+      <simple-id uuid='{63FD27AB-46DA-4F19-AABF-9F69FB7650C5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Procurement Supplier Risk Dashboard'>
+      <style />
+      <size maxheight='492' maxwidth='955' minheight='492' minwidth='955' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='96748' id='7' param='horz' type-v2='layout-flow' w='98324' x='838' y='1626'>
+            <zone h='96748' id='5' type-v2='layout-basic' w='76334' x='838' y='1626'>
+              <zone h='96748' id='3' name='Supplier Risk Overview — Defect &amp; Compliance Rate' w='76334' x='838' y='1626'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='210' h='96748' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='21990' x='77172' y='1626'>
+              <zone h='13211' id='8' name='Supplier Risk Overview — Defect &amp; Compliance Rate' pane-specification-id='0' param='[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Compliance_Rate:qk]' type-v2='color' w='21990' x='77172' y='1626'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='11382' id='9' type-v2='text' w='21990' x='77172' y='14837'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Delta_Logistics identified as highest-risk vendor — 10.83% defect rate, 60.82% compliance</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96748' id='10' param='vert' type-v2='layout-flow' w='98324' x='838' y='1626'>
+                <zone fixed-size='280' h='96748' id='3' is-fixed='true' name='Supplier Risk Overview — Defect &amp; Compliance Rate' w='76334' x='838' y='1626'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13211' id='8' name='Supplier Risk Overview — Defect &amp; Compliance Rate' pane-specification-id='0' param='[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Compliance_Rate:qk]' type-v2='color' w='21990' x='77172' y='1626'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11382' id='9' type-v2='text' w='21990' x='77172' y='14837'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book'>Delta_Logistics identified as highest-risk vendor — 10.83% defect rate, 60.82% compliance</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4E936DF8-1498-4D20-A246-41783379AB1F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Supplier Risk Overview — Defect &amp; Compliance Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1xnyp6e062o3u017yuiry164tc0u].[sum:Compliance_Rate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xnyp6e062o3u017yuiry164tc0u].[none:Supplier:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AE0C58E8-A25E-46BE-B928-9701B0572275}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Procurement Supplier Risk Dashboard'>
+      <viewpoints>
+        <viewpoint name='Supplier Risk Overview — Defect &amp; Compliance Rate'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7E86B4F7-4C52-455D-939D-9F8F033080B2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Procurement Supplier Risk Dashboard' width='192'>
+      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
+      0LeQRQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Supplier Risk Overview — Defect &amp; Compliance Rate' width='192'>
+      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
+      sN0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
