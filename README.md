@@ -53,7 +53,7 @@ Techniques used: `GROUP BY`, `CASE WHEN`, window functions (`SUM() OVER()`), `DA
 | `procurement_kpi_queries.sql` | All 6 MySQL queries |
 | `Procurement_Analysis.xlsx` | Cleaned dataset with Pivot Tables and VLOOKUP |
 | `Procurement_KPI_Dashboard.pbix` | Interactive Power BI dashboard (DAX, drill-through) |
-| `Procurement_Tableau_Dashboard.twbx` | Tableau dashboard — supplier risk (defect & compliance rate) |
+| `Procurement_Tableau.twb` | Tableau dashboard — supplier risk (defect & compliance rate) |
 
 ---
 
@@ -79,7 +79,7 @@ Built separately in Tableau to visualise supplier risk positioning — plotting 
 1. Import `Procurement_Analysis.xlsx` into MySQL Workbench as `procurement_db`
 2. Run queries from `procurement_kpi_queries.sql`
 3. Open `Procurement_KPI_Dashboard.pbix` in Power BI Desktop
-4. Open `Procurement_Tableau_Dashboard.twbx` in Tableau Desktop/Public
+4. Open `Procurement_Tableau.twb` in Tableau Desktop/Public
 
 ---
 
