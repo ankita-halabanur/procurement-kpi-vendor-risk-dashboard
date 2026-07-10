@@ -70,7 +70,7 @@ Interactive dashboard with DAX measures and drill-through for spend, compliance,
 ### Tableau — Supplier Risk Overview (Defect & Compliance Rate)
 Built separately in Tableau to visualise supplier risk positioning — plotting defect rate against compliance rate to flag Delta Logistics as the clear outlier despite highest spend.
 
-![Supplier Risk](supplier_risk_tableau.png)
+![Supplier Risk](procurement_tableau_dashboard.png.)
 
 ---
 
